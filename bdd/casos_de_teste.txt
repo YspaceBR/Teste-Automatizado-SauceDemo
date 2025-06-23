@@ -1,0 +1,56 @@
+Login na Saucedemo
+
+Usuário faz login com credenciais válidas
+Dado que o usuário está na página de login da Saucedemo
+Quando ele informa usuário e senha válidos
+E clica no botão de login
+Então ele deve visualizar a lista de produtos
+
+Funcionalidades de produtos na Saucedemo
+
+Visualizar lista de produtos após login
+Dado que o usuário está logado na Saucedemo
+Quando acessa a página de produtos
+Então deve visualizar a lista de produtos
+
+Visualizar detalhes de um produto
+Dado que o usuário está logado na Saucedemo
+Quando acessa os detalhes de um produto
+Então deve visualizar as informações do produto
+
+Ordenar produtos por nome
+Dado que o usuário está logado na Saucedemo
+Quando ordena os produtos por nome
+Então deve visualizar a lista de produtos ordenada por nome
+
+Ordenar produtos por preço
+Dado que o usuário está logado na Saucedemo
+Quando ordena os produtos por preço
+Então deve visualizar a lista de produtos ordenada por preço
+
+Funcionalidades do carrinho na Saucedemo
+
+Adicionar produto ao carrinho
+Dado que o usuário está logado na Saucedemo
+Quando adiciona o primeiro produto ao carrinho
+E acessa o carrinho
+Então o produto deve aparecer no carrinho
+
+Remover produto do carrinho
+Dado que o usuário está logado na Saucedemo
+E adicionou o primeiro produto ao carrinho
+Quando remove o produto do carrinho
+E acessa o carrinho
+Então o carrinho deve estar vazio
+
+Processo de checkout na Saucedemo
+
+Realizar checkout completo com sucesso
+Dado que o usuário está logado na Saucedemo
+Quando adiciona o primeiro produto ao carrinho
+E acessa o carrinho
+E inicia o checkout
+E preenche os dados de checkout
+E visualiza o resumo da compra
+E finaliza a compra
+Então deve ver a mensagem de sucesso da compra
