@@ -24,7 +24,6 @@ automacao/
 │   ├── produtos_tests.robot             # Testes de funcionalidades de produtos
 │   ├── carrinho_tests.robot             # Testes do carrinho
 │   └── checkout_tests.robot             # Testes de checkout
-├── requirements.txt                    # Dependências do projeto
 ├── README.md                           # Documentação do projeto
 ├── log.html                            # Relatório detalhado após execução dos testes
 ├── report.html                         # Relatório resumido após execução dos testes
@@ -37,10 +36,11 @@ automacao/
 
 1. Instale o Python 3.10+ (ou versão compatível)
 
-2. Instale as dependências:
+2. Instale as dependências necessárias:
 
 ```bash
-pip install -r requirements.txt
+pip install robotframework
+pip install robotframework-seleniumlibrary
 ```
 
 3. Execute todos os testes:
@@ -78,6 +78,3 @@ robot tests/produtos_tests.robot
 - **Checkout**  
   - Processo completo de checkout com dados válidos  
   - Validação do resumo da compra e mensagem de sucesso
-
----
-
