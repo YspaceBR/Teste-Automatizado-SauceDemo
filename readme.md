@@ -92,7 +92,3 @@ Os casos de teste também estão documentados na pasta `bdd/` no formato BDD par
 Contribuições são bem-vindas! Por favor, abra issues ou pull requests para melhorias.
 
 ---
-
-## 👤 Autor
-
-Brunno Boschini
