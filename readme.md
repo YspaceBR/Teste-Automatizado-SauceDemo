@@ -81,14 +81,3 @@ robot tests/produtos_tests.robot
 
 ---
 
-## 🗂️ Casos de teste BDD (Gherkin)
-
-Os casos de teste também estão documentados na pasta `bdd/` no formato BDD para melhor comunicação e entendimento.
-
----
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Por favor, abra issues ou pull requests para melhorias.
-
----
